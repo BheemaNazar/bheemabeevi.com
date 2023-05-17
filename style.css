@@ -1,84 +1,47 @@
-hr{
-	height:2px;
-	border-width:0;
-	color:gray;
-	background-color:gray;"
-}
-.main{
-	margin-left: 200px; 
-}
-.col-lg-2{
-	 height: 100%;
-  width: 150px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-.col-lg-2 li a:hover{
-	color: #2dad80;
-}
-button:hover{
+.black{
 	color: black;
-	background-color:#2dad80; 
 }
-.bg_dark{
-   background-color: black;
+.bg-black{
+	background-color: black;
 }
-.col-lg-10 p{
-	font-size: 100px;
+.bg-yellow{
+	background-color:#fadd3c;
 }
-.portfolio_section img{
+.header-section img{
+	border-radius: 50%;
+}
+.col-lg-4 img{
+	border-radius: 50%;
+}
+.portfolio-section img{
 	height: 100px;
+	width: 100px;
 	margin: 60px 100px;
 }
-.bg-color3{
-	background-color:#03ad78;	
+.name:hover{
+	background-color: yellow;
+	color:gray;	
 }
-.bg-color4{
-	background-color:#26bf8f;
+.name{
+	text-decoration: none;
+	color: gray;
+}
+.link{
+	text-decoration: none;
+	
+}
+.cover-section p{
+	font-size: 80px;
+}
+h1{
+	font-size: 70px;
 }
 .bg-color2{
-	background-color:#2dad80;
-}
-.bg-color1{
-	color:#f50a41;
-}
-.bg-color21{
-	color:#2dad80;
-}
-.bg-color5{
-	color:#363534;
-}
-
-.main h1{
-	font-size:70px;
+	background-color: black;
+	color: white;
+	border-color: yellow;
 }
 .image {
 	height: 400px;
-	width: 500px;
-}
-.logo{
-	height: 50px;
-	width: 50px;
-}
-
-@media(max-width: 595px){
-	.footer p{
-		margin-left: 180px;
-		margin-right: 10px;
-	}
-}
-@media(max-width: 580px){
-	.about h1{
-		font-size: 70px;
-	}
-}
-@media(max-width: 580px){
-	.about p{
-		font-size: 10px;
-	}
+	width: 450px;
 }
