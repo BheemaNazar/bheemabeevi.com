@@ -45,3 +45,10 @@ h1{
 	height: 400px;
 	width: 450px;
 }
+@media(max-width: 540px){
+	.project-section .image{  
+      height: 300px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
