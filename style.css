@@ -47,8 +47,9 @@ h1{
 }
 @media(max-width: 540px){
 	.project-section .image{  
-      height: 300px;
-		padding-right: 50px;
+      height: 200px;
+      width: 450px;
+		padding-right: 200px;
 		padding-left: 50px;
 	}
 }
