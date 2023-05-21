@@ -53,3 +53,8 @@ h1{
 		padding-left: 50px;
 	}
 }
+@media(max-width: 470px){
+	.portfolio-section .col-lg-4 img{  
+		margin-left: 150px;
+	}
+}
